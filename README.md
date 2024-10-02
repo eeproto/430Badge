@@ -27,4 +27,4 @@ Written by Christian H, info@eeproto.com, 2024
 
 ## License
 
-This work is available under the [Creative Commons Attribution-ShareAlike License 4.0](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License). A local copy is available at [LICENSE.md](LICENSE.md).
+This work is available under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) CC BY-NC-SA 4.0.

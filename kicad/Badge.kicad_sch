@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "e1b3ccd7-3caa-4d03-9727-c8afc9390c88")
 	(paper "A4")
+	(title_block
+		(title "430 Badge Solder Practice Board")
+		(date "2024-10-02")
+		(rev "1.0")
+		(company "NJIT ECET 430")
+		(comment 1 "Open Source Hardware CC BY-NC-SA 4.0")
+	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
@@ -2167,6 +2174,18 @@
 		)
 		(uuid "60a10412-8896-4a45-9477-7273bfe9ac29")
 	)
+	(label "PULSE2L"
+		(at 232.41 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "77073bd7-decf-4516-9651-463b37f86e30")
+	)
 	(label "PULSE"
 		(at 196.85 48.26 180)
 		(fields_autoplaced yes)
@@ -2189,6 +2208,19 @@
 		)
 		(uuid "a8e53525-c87a-413f-9d4e-79041089be29")
 	)
+	(label "BAT"
+		(at 27.94 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "af782f69-d70c-4fd4-b816-0b02f64c89e1")
+	)
 	(label "TR"
 		(at 111.76 48.26 180)
 		(fields_autoplaced yes)
@@ -2199,6 +2231,18 @@
 			(justify right bottom)
 		)
 		(uuid "b1062baf-d641-47bd-b740-5d1f394c5b2c")
+	)
+	(label "PULSE2H"
+		(at 232.41 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0a17b0b-97c4-423c-b9cf-44a14468f682")
 	)
 	(symbol
 		(lib_id "Device:R")
