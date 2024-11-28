@@ -49,7 +49,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x0001000_ffffffff)
+			(layerselection 0x00010a8_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -1188,7 +1188,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "22k"
+=======
+		(property "Value" "R"
+>>>>>>> 09be50ecdb3fbd038d621a075c7875f4c46b0b3c
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "134850d3-161e-4b37-ab90-4107db32eb3c")
@@ -4330,7 +4334,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "100k"
+=======
+		(property "Value" "R"
+>>>>>>> 09be50ecdb3fbd038d621a075c7875f4c46b0b3c
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e2f0dcbd-85a9-487b-8c93-f118d59436e6")
