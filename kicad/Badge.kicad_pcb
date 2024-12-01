@@ -1188,11 +1188,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Value" "22k"
-=======
-		(property "Value" "R"
->>>>>>> 09be50ecdb3fbd038d621a075c7875f4c46b0b3c
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "134850d3-161e-4b37-ab90-4107db32eb3c")
@@ -4334,11 +4330,7 @@
 				)
 			)
 		)
-<<<<<<< HEAD
 		(property "Value" "100k"
-=======
-		(property "Value" "R"
->>>>>>> 09be50ecdb3fbd038d621a075c7875f4c46b0b3c
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e2f0dcbd-85a9-487b-8c93-f118d59436e6")
