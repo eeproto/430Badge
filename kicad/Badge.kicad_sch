@@ -5,10 +5,10 @@
 	(uuid "e1b3ccd7-3caa-4d03-9727-c8afc9390c88")
 	(paper "A4")
 	(title_block
-		(title "430 Badge Solder Practice Board")
-		(date "2024-10-02")
-		(rev "1.0")
-		(company "NJIT ECET 430")
+		(title "230 Badge Solder Practice Board")
+		(date "2025-10-17")
+		(rev "2.0")
+		(company "NJIT ECET 230")
 		(comment 1 "Open Source Hardware CC BY-NC-SA 4.0")
 	)
 	(lib_symbols
@@ -1553,6 +1553,12 @@
 		)
 	)
 	(junction
+		(at 105.41 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f22dd6-7e63-43e8-8c49-50f92779d98a")
+	)
+	(junction
 		(at 219.71 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1611,18 +1617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0273742-e3c8-458b-9824-5341e1a42f51")
-	)
-	(junction
-		(at 59.69 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ec555e-ac39-4ba7-9f53-85045d8a05f5")
-	)
-	(junction
-		(at 59.69 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abfb9787-bfef-43dd-a6dc-5e16762f6cbe")
 	)
 	(junction
 		(at 48.26 63.5)
@@ -1712,13 +1706,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 63.5) (xy 59.69 63.5)
+			(xy 124.46 68.58) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d59f46b-8f1d-47e4-ab4d-6132a15d77ee")
+		(uuid "1843a66a-d09d-4a3a-8db8-35060f7023bd")
 	)
 	(wire
 		(pts
@@ -1882,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 63.5) (xy 48.26 63.5)
+			(xy 48.26 63.5) (xy 49.53 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 53.34) (xy 59.69 53.34)
+			(xy 48.26 53.34) (xy 49.53 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1982,13 +1976,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 59.69 54.61)
+			(xy 105.41 66.04) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb799628-7f4e-403f-bd11-d653d94c8ae2")
+		(uuid "c048545a-c47a-4de0-86b8-7c7dfd8928f0")
 	)
 	(wire
 		(pts
@@ -1999,16 +1993,6 @@
 			(type default)
 		)
 		(uuid "c5c111e8-9457-4e10-aada-48bdbb9edc2e")
-	)
-	(wire
-		(pts
-			(xy 59.69 62.23) (xy 59.69 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7e844a0-15d3-476c-b6a2-298014e7d974")
 	)
 	(wire
 		(pts
@@ -2039,16 +2023,6 @@
 			(type default)
 		)
 		(uuid "ef047869-33ca-4bd4-bed8-ff24bb5d04d6")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 48.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a40d49-f33f-4eaf-ab44-aba52704f9aa")
 	)
 	(wire
 		(pts
@@ -2099,6 +2073,16 @@
 			(type default)
 		)
 		(uuid "fc62a962-f3e5-4540-960f-69a700531fe4")
+	)
+	(text "390 or 470, try"
+		(exclude_from_sim no)
+		(at 252.476 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "670a253e-e074-4ac9-be9f-91a15a30f9cc")
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
@@ -2160,7 +2144,6 @@
 	)
 	(label "TR"
 		(at 153.67 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2171,7 +2154,6 @@
 	)
 	(label "PULSE"
 		(at 137.16 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2182,7 +2164,6 @@
 	)
 	(label "PULSE2L"
 		(at 232.41 85.09 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2194,7 +2175,6 @@
 	)
 	(label "PULSE"
 		(at 196.85 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2205,7 +2185,6 @@
 	)
 	(label "PULSE"
 		(at 196.85 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2216,7 +2195,6 @@
 	)
 	(label "BAT"
 		(at 27.94 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2229,7 +2207,6 @@
 	)
 	(label "TR"
 		(at 111.76 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2240,7 +2217,6 @@
 	)
 	(label "PULSE2H"
 		(at 232.41 69.85 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2297,6 +2273,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 470 OHM 1/8W 0805"
 			(at 200.66 44.45 0)
 			(effects
 				(font
@@ -2367,6 +2361,24 @@
 			)
 		)
 		(property "Description" "CMOS Timer, 555 compatible, SOIC-8"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LMC555CMX/NOPB"
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -2456,6 +2468,24 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -2735,6 +2765,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" ""
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 470 OHM 1/8W 0805"
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3fdbed2-d070-421c-97b8-27fedcced300")
 		)
@@ -2745,6 +2793,72 @@
 			(project "Badge"
 				(path "/e1b3ccd7-3caa-4d03-9727-c8afc9390c88"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24d3baec-e01c-44a4-aade-49be30b3acf8")
+		(property "Reference" "#PWR101"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c89855ef-479a-4a34-9137-bfd823c07f86")
+		)
+		(instances
+			(project "Badge"
+				(path "/e1b3ccd7-3caa-4d03-9727-c8afc9390c88"
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -2797,6 +2911,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "QTB"
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-AG1"
 			(at 232.41 73.66 0)
 			(effects
 				(font
@@ -2867,6 +2999,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 390 OHM 1/8W 0805"
 			(at 232.41 81.28 0)
 			(effects
 				(font
@@ -3011,6 +3161,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" ""
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 470 OHM 1/8W 0805"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61ea0b1c-7994-46e8-84ad-712698f507f5")
 		)
@@ -3081,6 +3249,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "QTB"
+			(at 214.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-AG1"
+			(at 214.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49b3650e-485a-42ac-a212-27b31f1cc312")
 		)
@@ -3098,7 +3284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 63.5 0)
+		(at 124.46 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3107,7 +3293,7 @@
 		(fields_autoplaced yes)
 		(uuid "65c7b0d6-0ef8-45e6-91eb-a5eb31dc4066")
 		(property "Reference" "#PWR04"
-			(at 124.46 69.85 0)
+			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,7 +3302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 68.58 0)
+			(at 124.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 63.5 0)
+			(at 124.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 63.5 0)
+			(at 124.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 63.5 0)
+			(at 124.46 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,6 +3396,24 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 200.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 200.66 69.85 0)
 			(effects
 				(font
@@ -3357,6 +3561,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" ""
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 390 OHM 1/8W 0805"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9912fcdd-bb4d-41c2-8417-4e948801bb2d")
 		)
@@ -3374,7 +3596,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 66.04 53.34 270)
+		(at 49.53 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3383,7 +3605,7 @@
 		(fields_autoplaced yes)
 		(uuid "77bceb34-99c3-44e9-8af4-9d0bbe5f202b")
 		(property "Reference" "#FLG01"
-			(at 67.945 53.34 0)
+			(at 51.435 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3614,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 69.85 53.3399 90)
+			(at 53.34 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 53.34 0)
+			(at 49.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 53.34 0)
+			(at 49.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3642,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 53.34 0)
+			(at 49.53 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,6 +3709,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "QTB"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-R5-2897"
 			(at 200.66 36.83 0)
 			(effects
 				(font
@@ -3629,6 +3869,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "CUI"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DS01-254-L-01BE"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4f83e8e-cfe1-42eb-8be9-829bf9041340")
 		)
@@ -3639,6 +3897,94 @@
 			(project ""
 				(path "/e1b3ccd7-3caa-4d03-9727-c8afc9390c88"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93218e0d-bb06-49f2-b226-57a4b71d881b")
+		(property "Reference" "C1"
+			(at 52.07 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 52.07 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.2252 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "generic"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 10UF 16V 0805"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dae26617-a4fb-408b-82c0-d961be4e4fde")
+		)
+		(pin "1"
+			(uuid "51542188-7ab9-4130-8321-96c5db1fd105")
+		)
+		(instances
+			(project "Badge"
+				(path "/e1b3ccd7-3caa-4d03-9727-c8afc9390c88"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3765,6 +4111,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" ""
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 390 OHM 1/8W 0805"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85f3f04e-e6ff-4c67-8e0a-2528c63ce131")
 		)
@@ -3827,6 +4191,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "QTB"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-AG1"
 			(at 204.47 73.66 0)
 			(effects
 				(font
@@ -3971,6 +4353,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "QTB"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-R5-2897"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b88ecc3a-2aab-4beb-9afd-b5f14122182f")
 		)
@@ -3988,16 +4388,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 58.42 0)
+		(at 105.41 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bcb51cf7-dcb4-4d1e-bb6a-20ecd86e67c9")
 		(property "Reference" "C3"
-			(at 63.5 57.1499 0)
+			(at 101.6 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4406,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 63.5 59.6899 0)
+			(at 101.6 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4415,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 60.6552 62.23 0)
+			(at 104.4448 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 58.42 0)
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4433,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 58.42 0)
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "generic"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 0.1UF 25V 0805"
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,6 +4595,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" ""
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 22K OHM 1/8W 0805"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "818386e4-2dfc-40ac-98ed-befc3d5dc9d2")
 		)
@@ -4187,76 +4623,6 @@
 			(project "Badge"
 				(path "/e1b3ccd7-3caa-4d03-9727-c8afc9390c88"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca69c287-d916-4944-94ae-8f0af796e8fd")
-		(property "Reference" "C1"
-			(at 52.07 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 52.07 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 49.2252 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e7ab9dd-57c4-44a8-b579-ed3992533206")
-		)
-		(pin "1"
-			(uuid "b56c83b4-5fe7-4154-a394-25c8e238f763")
-		)
-		(instances
-			(project ""
-				(path "/e1b3ccd7-3caa-4d03-9727-c8afc9390c88"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4309,6 +4675,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 100K OHM 1/8W 0805"
 			(at 152.4 53.34 0)
 			(effects
 				(font
@@ -4387,6 +4771,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "QTB"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-R5-2897"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fbd632df-495d-49e9-9374-dee8dbb9f5db")
 		)
@@ -4457,6 +4859,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "QTB"
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-R5-2897"
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cdd236de-09a9-4a8a-90fe-e99253627789")
 		)
@@ -4474,7 +4894,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 66.04 63.5 270)
+		(at 49.53 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4483,7 +4903,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6679fe0-e52c-4944-80db-2e14a1c329ae")
 		(property "Reference" "#FLG02"
-			(at 67.945 63.5 0)
+			(at 51.435 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,7 +4912,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 69.85 63.4999 90)
+			(at 53.34 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 63.5 0)
+			(at 49.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 63.5 0)
+			(at 49.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4940,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 66.04 63.5 0)
+			(at 49.53 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,6 +5007,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 470 OHM 1/8W 0805"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -4665,6 +5103,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" ""
+			(at 214.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RES 390 OHM 1/8W 0805"
+			(at 214.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4b8964d-e457-4daa-a167-1f4adc731b00")
 		)
@@ -4699,7 +5155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 156.21 66.0399 0)
 			(effects
 				(font
@@ -4727,6 +5183,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "generic"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CAP CER 10UF 16V 0805"
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -4806,6 +5280,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Keystone"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "36-103-ND"
+			(at 27.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1db5a0c1-49f5-475a-a217-cd1d7bb724c9")
 		)
@@ -4868,6 +5360,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "QTB"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "QBLP631-AG1"
 			(at 223.52 73.66 0)
 			(effects
 				(font
