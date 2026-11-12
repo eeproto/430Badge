@@ -111,7 +111,7 @@
 		(descr "1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)")
 		(tags "DIP Switch SPST Slide 7.62mm 300mil")
 		(property "Reference" "SW1"
-			(at -0.2965 4.318 360)
+			(at -0.2965 4.318 0)
 			(layer "F.SilkS")
 			(uuid "dc39df10-c15b-45b1-8723-51615f911071")
 			(effects
@@ -646,7 +646,7 @@
 			(uuid "53652fd6-e5ef-4bae-b256-cba15d1469f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.27 0 360)
+			(at 7.27 0 0)
 			(layer "F.Fab")
 			(uuid "5339baad-88d2-4f2a-96a8-c9e21019302b")
 			(effects
@@ -1849,7 +1849,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
-			(at 5.334 6.096 360)
+			(at 5.334 6.096 0)
 			(layer "F.SilkS")
 			(uuid "a3796a62-ceee-4b9d-822f-af3eae34a6e2")
 			(effects
@@ -1860,7 +1860,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "c3c7ad52-1193-4173-83d8-101bd93e4706")
 			(effects
@@ -2035,7 +2035,7 @@
 			(uuid "48b8831d-912b-4466-a2d2-b25e5eb34f38")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0f27435d-4be9-44b6-b59b-724ad26312be")
 			(effects
@@ -4979,7 +4979,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D3"
-			(at -9.906 0 360)
+			(at -9.906 0 0)
 			(layer "F.SilkS")
 			(uuid "9b92bbcb-5206-488c-8156-f7f6ec7e6e8a")
 			(effects
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "ec31bda5-99d1-4553-9845-fbab2926b398")
 			(effects
@@ -5165,7 +5165,7 @@
 			(uuid "a656d617-3b85-4914-bf4f-32dfcf5eb9f9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5adb680e-6730-4e52-8b46-2db1a600e707")
 			(effects
@@ -5962,7 +5962,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at -9.906 0 360)
+			(at -9.906 0 0)
 			(layer "F.SilkS")
 			(uuid "b5868227-d7a2-475b-92ec-5e2082f51833")
 			(effects
@@ -5973,7 +5973,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "ab3c1a8d-920c-4978-954b-e5dd880a930b")
 			(effects
@@ -6128,7 +6128,7 @@
 			(uuid "13a3d72e-0c78-4a80-b439-72e63ba46a10")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8255c621-5aa1-4e48-bd8c-5ba8692128f6")
 			(effects
@@ -6623,7 +6623,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at -3.301999 0.112 360)
+			(at -3.301999 0.112 0)
 			(layer "F.SilkS")
 			(uuid "f3864d6e-5e84-4e6f-9ca3-8d7b554fff11")
 			(effects
@@ -6634,7 +6634,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "80c1e56b-450e-49f8-bc12-5bd55f118212")
 			(effects
@@ -6789,7 +6789,7 @@
 			(uuid "1a5c5c8c-d379-464c-9294-39e22aba8d37")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1e3bd78b-c414-4004-8d42-88e85a07ff11")
 			(effects
